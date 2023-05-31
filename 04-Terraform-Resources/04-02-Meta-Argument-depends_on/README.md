@@ -180,6 +180,10 @@ terraform init
 # Terraform Validate
 terraform validate
 
+# Terraform formatting the content
+terraform fmt
+
+
 # Terraform Plan to Verify what it is going to create / update / destroy
 terraform plan
 
