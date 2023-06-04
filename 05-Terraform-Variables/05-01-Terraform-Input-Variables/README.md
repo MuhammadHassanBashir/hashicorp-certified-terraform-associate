@@ -76,7 +76,7 @@ terraform plan
 ```
 
 ## Step-03: Input Variables Override default value with cli argument `-var`
-- **Reference Sub folder:** v3-Input-Variables-Override-default-with-cli
+- **Reference Sub folder:** v3-Input-Variables-Override-default-with-cli -var
 - We are going to override the default values defined in `variables.tf` by providing new values using the `-var` argument using CLI
 ```t
 # Initialize Terraform
