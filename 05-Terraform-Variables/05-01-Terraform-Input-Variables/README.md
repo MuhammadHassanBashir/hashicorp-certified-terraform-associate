@@ -283,17 +283,20 @@ terraform plan
 - The `terraform console` command provides an interactive console for evaluating expressions.
 ### Step-09-01: Learn Terraform Length Function
 - [Terraform Length Function](https://www.terraform.io/docs/language/functions/length.html)
-```t
+```t    
+
+**length function determines the length of a given list, map, or string.**
+
 # Go to Terraform Console
 terraform console
 
 # Test length function
 Template: length()
-length("hi")
-length("hello")
-length(["a", "b", "c"]) # List
-length({"key" = "value"}) # Map
-length({"key1" = "value1", "key2" = "value2" }) #Map
+length("hi")   #string  # result string length is 2
+length("hello")   #string  # result string length is 5
+length(["a", "b", "c"]) # List   # result list length is 3
+length({"key" = "value"}) # Map  # result map length is 1
+length({"key1" = "value1", "key2" = "value2" }) #Map   # result map length is 2
 ```
 
 ### Step-09-02: Learn Terraform SubString Function
