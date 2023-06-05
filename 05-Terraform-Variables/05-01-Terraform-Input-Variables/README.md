@@ -302,6 +302,9 @@ length({"key1" = "value1", "key2" = "value2" }) #Map   # result map length is 2
 ### Step-09-02: Learn Terraform SubString Function
 - [Terraform Sub String Function](https://www.terraform.io/docs/language/functions/substr.html)
 ```t
+
+**substr extracts a substring from a given string by offset and (maximum) length.**
+
 # Go to Terraform Console
 terraform console
 
